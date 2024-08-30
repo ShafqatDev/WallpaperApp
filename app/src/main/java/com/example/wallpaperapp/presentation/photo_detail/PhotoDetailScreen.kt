@@ -93,7 +93,7 @@ fun PhotoDetailScreen(
                 Text(
                     text = photoList[pagerState.currentPage].title,
                     color = Color.White,
-                    style = MaterialTheme.typography.headlineMedium,
+                    style = MaterialTheme.typography.headlineSmall,
                     modifier = Modifier
                         .fillMaxWidth()
                         .align(Alignment.BottomCenter)
